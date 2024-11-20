@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 30px; */
+    height: 70px;
+}
+
+.header-logo-nav {
+    /* display: flex; */
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation li:hover {
+    background-color: chocolate;
+    border: none;
+    border-radius: 5px;
+}
+
+.navigation li {
+    margin-left: 40px;
+    list-style: none;
+    /* text-decoration: none; */
+}
+
+.signUp {
+    padding: 12px 22px;
+    border-radius: 10px;
+    background-color: #4D77FF;
+    color: white;
+    border: none;
+
+}
+
+
+.signIn {
+    padding: 12px 22px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+}
